@@ -1,0 +1,356 @@
+@media only screen and (min-width: 992px) and  (max-width: 1200px){
+    
+   .our__story-info-title p {
+      font-size: 23px;
+   }
+   input{
+      line-height: normal;
+   }
+}
+
+@media only screen and  (max-width: 1025px)
+{
+    footer .top{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   footer .top__info{
+      margin-top: 20px;
+   }
+   footer .top__info >ul>li{
+      padding-right: 0px;
+      width: 21%;
+   }
+   footer .top__info >ul>li:last-child{
+      width: 41%!important;
+   }
+}
+
+
+@media only screen and (min-width: 768px) and  (max-width: 991px){
+   header .action
+   {
+      top: 69%;
+   }
+
+   .hello p:first-child{
+      font-size: 45px;
+   }
+   .hello p:last-child{
+      font-size: 45px;
+   }
+   .menu li a{
+      font-size: 14px;
+   }
+   .title p{
+      font-size: 16px;
+   }
+   .our_story {
+      padding: 20px 0px 30px 0px;
+   }
+   .our__story-info-title p {
+      font-size: 21px;
+   }
+   .our__story-info {
+      padding-left: 15px;
+   }
+
+   .text{
+      padding: 6vw 7vw;
+   }
+   .our__service .info p{
+      text-align: justify;
+   }
+}
+@media only screen and (max-width: 767px)
+{
+   header .action{
+      top: 70%;
+   }
+	.hello p:first-child{
+      font-size: 35px;
+   }
+   .hello p:last-child{
+      font-size: 35px;
+   }
+   .title h2 {
+      font-size: 32px;
+   }
+   .title p{
+      font-size: 14px;
+   }
+   ..our_story{
+      background: #f0f0f0;
+   }
+    .our__story-info-content{
+      width: 100%;
+   }
+   #nav-ul ul{
+      display: block;
+   }
+   .menu .actives{
+      color: #fff;
+      border-bottom: none;
+   }
+   .menu ul li{
+      padding: 1.5vw 20px 1.5vw 20px;
+      border-bottom: 1px solid #fff;
+   }
+   .menu ul li:last-child{
+      border-bottom: none;
+   }
+   .menu ul li:hover{
+      opacity: 0.6;
+   }
+   .checkbtn {
+      top:3.5vw;
+   }
+   #nav-ul{
+      z-index: 100;
+      display: block;
+      background: #000;
+      position: absolute;
+      left: -100%;
+      top:10vw;
+      width: 100%;
+      height: 280px;
+      text-align: left;
+      transition: all .6s;
+      padding-left: 10px;
+      opacity: 0.9;
+   }
+   #nav-ul li:nth-child(4)
+   {
+      display: none;
+   }
+   #nav-ul a img{
+      height: 50px;
+      width: 80px;
+   }
+   .logo{
+      display: block;
+   }
+   #check:checked ~ #nav-ul {
+      left: 0!important;
+   }
+   .checkbtn{
+      display: block;
+   }
+   .menu li a{
+      color: #fff;
+   }
+   .background-img{
+      margin-top: 10px;
+   }
+   .our__story-img{
+      padding-right: 0px!important;
+   }
+   .our_story{
+      padding: 20px 0px 20px 0px;
+   }
+   .our__story-info{
+      margin-top: 15px;
+   }
+   .text{
+      padding: 6vw 0px 3vw 3vw;
+   }
+   .text .text__item p.lorem{
+      font-size: 17px;
+   }
+   .text .text__item>p:last-child{
+      font-size: 14px;
+   }
+   .our__service{
+      flex-direction: column-reverse;
+   }
+   .our__service .our__service-right{
+      padding: 0px 3vw 0px 3vw;
+   }
+   .our__service .info{
+      text-align: left;
+
+   }
+   .our__service .info .line{
+      float: left;
+   }
+   .our__service .info p{
+      text-align: justify;
+   }
+   .our__service .our__service-left{
+      padding-left: 3vw;
+      margin-top: 15px;
+   }
+   .our__service .info:last-child{
+      margin-top: 10px!important;
+   }
+   .our__service.coppy{
+      flex-direction: column;
+   }
+   .our__service.coppy .our__service-right{
+      padding: 0px 3vw;
+   }
+   footer {
+      padding: 60px 40px 40px 40px;
+   }
+   footer .top{
+      padding: 0px 0px 20px 0px;
+   }
+}
+@media only screen and (max-width: 580px){
+   .title h2 {
+      font-size: 25px;
+   }
+   .hello p:first-child{
+      font-size: 25px;
+   }
+   .hello p:last-child{
+      font-size: 25px;
+   }
+   .title p{
+      font-size: 12px;
+   }
+   .action button a{
+      font-size: 14px;
+   }
+   .menu ul li{
+      padding:6px 20px 6px 20px;
+   }
+   #nav-ul{
+      height: 275px;
+   }
+   header .action button:hover{
+      background: #000;
+      opacity: 0.6;
+   }
+   .our_story{
+      padding-top: 0px;
+   }
+    .our__story-info{
+      padding-left: 20px;
+   }
+
+   .text .text__item{
+      padding: 0px 5px;
+      margin-top: 10px;
+   }
+   .our__service-right .bottom>div:first-child{
+      padding-right: 0px!important;
+   }
+   .our__service-right .bottom>div:last-child{
+      padding-left: 0px!important;
+      margin-top: 15px;
+   }
+}
+@media only screen and (max-width: 480px){
+   .carousel-caption
+   {
+      bottom: 0px;
+   }
+   .carousel-indicators{
+      bottom: 2px;
+   }
+     .action button a{
+      font-size: 11px;
+   }
+   .hello p:first-child{
+      font-size: 25px;
+   }
+   .hello p:last-child{
+      font-size: 25px;
+   }
+   .carousel-caption p{
+      font-size: 12px;
+   }
+    .checkbtn{
+      top: 1.6vw;
+   }
+   .checkbtn i{
+      font-size: 14px;
+   }
+   .menu ul li{
+      padding: 3px 20px 3px 20px;
+   }
+   #nav-ul
+   {
+      height: 235px;
+   }
+   .our__story-info-title p {
+      font-size: 26px;
+   }
+
+
+   footer .top__logo{
+      align-items: center;
+   }
+   .top__info>ul>li:first-child{
+      display: none;
+   }
+   .top__info>ul>li:nth-child(2){
+       display: none;
+   }
+   .top__info>ul>li:nth-child(3){
+       display: none;
+   }
+   footer .top__info >ul>li:last-child{
+       width: 100%!important;
+       text-align: center;
+   }
+   footer .top__info{
+      display: flex;
+      justify-content: center;
+   }
+
+}
+@media only screen and (max-width: 414px)
+{
+   .title h2 {
+      font-size: 20px;
+   }
+   .hello p:first-child{
+      font-size: 20px;
+   }
+   .hello p:last-child{
+      font-size: 20px;
+   }
+   .carousel-indicators li{
+      height: 3px;
+      width: 40px;
+   }
+   .carousel-indicators .active{
+      width: 50px;
+      height: 5px;
+   }
+ 
+   header .action button{
+      padding: 0.6vw!important;
+   }
+   header .action{
+      top: 74%;
+   }
+   .our__story-info-title p {
+      font-size: 21px;
+   }
+   .checkbtn{
+      top: 1.3vw;
+   }
+   .menu ul li {
+      padding: 0px 20px 0px 20px;
+   }
+   #nav-ul
+   {
+      height: 180px;
+      
+   }
+   #nav-ul ul li a{
+      font-size: 12px;
+   }
+   ul.nav li{
+      margin-right: 0px;
+   }
+   .carousel-indicators{
+      display: none;
+   }
+   .carousel-caption{
+      display: none;
+   }
+}
